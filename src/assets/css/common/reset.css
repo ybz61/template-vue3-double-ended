@@ -1,0 +1,134 @@
+html {
+  /* 底色，自定义 */
+  background-color: #ffffff !important;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #666666;
+}
+
+/* html,
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+} */
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset p {
+  margin: 0;
+  padding: 0 0 0 8px;
+}
+
+legend {
+  display: none;
+}
+
+address,
+caption,
+em,
+strong,
+th,
+i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+table caption {
+  margin-left: -1px;
+}
+
+hr {
+  height: 2px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #e4e4e4;
+  border-width: 1px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+ol,
+ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: '';
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+}
