@@ -1,4 +1,4 @@
-# template-vue3-js-double-ended
+# template-vue3-double-ended
 vue3双端适配模板
 
 This template should help you start developing with Vue 3 in Vite, while also adapting to both PC and mobile devices.
