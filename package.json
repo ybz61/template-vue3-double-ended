@@ -10,19 +10,16 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "axios": "^1.4.0",
-    "dayjs": "^1.11.9",
+    "less": "^4.2.0",
     "mobile-device-detect": "^0.4.3",
     "normalize.css": "^8.0.1",
     "pinia": "^2.1.4",
-    "underscore": "^1.13.6",
-    "vant": "^3.6.12",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "less": "^4.2.0",
-    "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^3.0.3",
     "unplugin-vue-components": "^0.25.1",
     "vite": "^4.4.6"

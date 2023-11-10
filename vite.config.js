@@ -69,5 +69,11 @@ export default defineConfig({
         })
       ]
     }
-  }
+  },
+  base: './' // 打包路径
+  // server: {
+  //   port: 5173, // 启动端口号
+  //   open: true, // 启动服务时自动打开浏览器
+  //   cors: true // 允许跨域
+  // }
 })
