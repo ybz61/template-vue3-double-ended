@@ -53,11 +53,10 @@ router.beforeEach((to, from, next) => {
   // 4、判断设备，正确处理
   if (!isMobile && path.includes('/m/')) {
     // next();
-    next({ name: 'pcIndex' })
+    // next({ name: 'pcIndex' })
+    router.push(`${path.replace('/m/', '/')}${queryString}`)
   } else if (isMobile && !path.includes('/m/')) {
     router.push(`/m${path}${queryString}`)
-  } else if (!isMobile && path.includes('/m/')) {
-    router.push(`${path.replace('/m/', '/')}${queryString}`)
   } else {
     next()
   }
