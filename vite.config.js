@@ -70,10 +70,17 @@ export default defineConfig({
       ]
     }
   },
-  base: './' // 打包路径
-  // server: {
-  //   port: 5173, // 启动端口号
-  //   open: true, // 启动服务时自动打开浏览器
-  //   cors: true // 允许跨域
-  // }
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {}
+      }
+    },
+    // 关闭生成map文件 可以达到缩小打包体积
+    sourcemap: false,
+    // 关闭文件计算
+    reportCompressedSize: false
+  },
+  // 配置静态资源路径
+  base: './'
 })
